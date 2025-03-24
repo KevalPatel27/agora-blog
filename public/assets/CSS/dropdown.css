@@ -1,0 +1,119 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+/* Logo styles */
+.logo img {
+    height: 40px;
+}
+
+/* Menu styles */
+.menu {
+    position: relative;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: flex; /* Ensure the hamburger is displayed */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white; /* Color of the hamburger bars */
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Menu list styles */
+#menuList {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 60px; /* Adjust based on your header height */
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Show menu when active */
+#menuList.active {
+    display: block; 
+}
+
+/* Dropdown menu styles */
+.menu_dropdown {
+    position: relative; /* Make the parent li relative */
+}
+
+/* Dropdown container styles */
+.drop-container {
+    display: none; /* Hide dropdown by default */
+    background-color: #444; /* Background color for dropdown */
+    padding: 10px;
+}
+
+/* Show dropdown when active */
+.drop-container.active {
+    display: block; 
+}
+
+/* Dropdown title styles */
+.drop-cnt-title {
+    color: white;
+    margin: 0;
+}
+
+/* Dropdown content styles */
+.drop-cnt-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Dropdown list item styles */
+.drop-cnt-content li {
+    margin: 5px 0;
+}
+
+/* Link styles in dropdown */
+.drop-cnt-content a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+.drop-cnt-content a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.btn {
+    background-color: #f39c12;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+    #menuList {
+        display: flex; /* Show menu on larger screens */
+    }
+}

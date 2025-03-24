@@ -1,0 +1,92 @@
+.demo{
+    background-color: #276EF0;
+    padding: 101px 0;
+    background-image: url(../../public/assets/Images/background-layer.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.demo-cnt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.demo-desc h2{
+    font-family: Rufina;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59.28px;
+    letter-spacing: 0%;
+    color: #A1BDFA;
+}
+.demo-desc h2 span{
+    color: var(--white);
+}
+.demo-btn{
+    display: flex;
+    gap: 16px;
+}
+.demo-btn .btn {
+    background-color:transparent;
+    border: 1px solid #F4F4F4;
+    color: #F4F4F4;
+    display: flex;
+    gap:10px;
+}
+.demo-btn .btn:hover{
+    background-color: #4a84ee;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.demo-btn .btn:hover a{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1450px) {
+    .demo{
+        padding: 100px 0;
+    }
+    
+}
+@media screen and (max-width: 1199px) {
+    .demo{
+        padding: 90px 0;
+    }
+    .demo-desc h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media screen and (min-width: 992px){
+    .menu .handling-menu .first-li .drop-container{
+        left: 40%;
+    }
+    .menu .handling-menu .last-li .drop-container{
+        left:60%
+    }   
+    
+}
+@media screen and (max-width: 991px) {
+    
+    .demo-btn{
+        display: flex;
+    }
+    .demo{
+        padding: 90px 0;
+    }
+    .demo-desc h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+    
+@media (max-width: 576px) {   
+    .demo{
+        padding: 40px 0px;
+        background-position: bottom;
+    }
+    .demo .demo-btn{
+        flex-direction: column;
+        text-align: center;
+    }
+}

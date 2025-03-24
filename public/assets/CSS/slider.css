@@ -1,0 +1,108 @@
+/* =========================
+   Font Definitions
+   ========================= */
+@font-face {
+    font-family: "Rufina";
+    src: url("../Fonts/Rufina-Regular.woff2") format("woff2"),
+         url("../Fonts/Rufina-Regular.woff") format("woff"),
+         url("../Fonts/Rufina-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url("../Fonts/Urbanist-Regular.woff2") format("woff2"),
+         url("../Fonts/Urbanist-Regular.woff") format("woff"),
+         url("../Fonts/Urbanist-Regular.ttf") format("ttf");
+    font-weight: 400; /* Default weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* =========================
+   Global Styles
+   ========================= */
+
+
+.awards-cnt{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #FDFDFD;
+}
+.awards-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.awards-text .awards-title h2{
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #001529;       
+}
+.awards-text .awards-title span{
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:  #00152966;
+}
+.awards-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.awards-link a{
+    color: #276EF0;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0%; 
+}
+.awards-text .awards-link img {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(100%) saturate(1000%) hue-rotate(200deg) brightness(100%) contrast(100%); /* Apply filter to change color */
+} 
+.awards-text .awards-link:hover a,.awards-text .awards-link:hover img{
+    color: #001529;
+    filter: brightness(0) saturate(100%) invert(36%) sepia(100%) saturate(1000%) hue-rotate(200deg) brightness(100%) contrast(100%);
+}  
+.award-slider-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.awards-rating{
+    background: #F1F6FB;
+    align-items: center;
+    width: 100%;
+}
+.awards-ratting-img{
+    padding: 42px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.awards-ratting-img img{
+    border-radius: 4px;
+    padding: 19px;
+    background-color: #FDFDFD;
+    align-items: center;
+}
+
+
+

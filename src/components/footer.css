@@ -1,0 +1,427 @@
+:root {
+  --footer-color: #001529;
+  --default-color: white;
+  --input: hsla(0, 0%, 100%, 0.08);
+  --background-color-badge: #1a2c3e;
+  --font-color: #d9d9d9;
+  --font-hover: white;
+  --border-color: #334454;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding-top: 80px;
+  color: var(--default-color);
+  font-family: Urbanist;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1460px;
+  padding: 0 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.newsletter-content {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 40px;
+  padding-bottom: 87px;
+  justify-items: center;
+  align-items: center;
+}
+
+.newsletter-content .subscribe {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-right: 60px;
+}
+
+.newsletter-content .subscribe h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.newsletter-content .subscribe .input-group img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  transform: translate(10px, 13px);
+}
+
+.newsletter-content .subscribe .input-group input {
+  background: var(--input);
+  padding: 12px 10px 12px 34px;
+  color: var(--default-color);
+  border: none;
+  width: 245px;
+  gap: 6px;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 35px;
+  font-family: Urbanist;
+}
+
+.btn.footer {
+  position: absolute;
+  gap: 8px;
+  transform: translate(-55%, 0px);
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badges .badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 9.16px;
+  border: 1.44px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-color-badge);
+}
+.badges-hover .badge:hover{
+  background: #f08843;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+  gap: 80px;
+  border-top: 1px solid var(--border-color);
+  padding: 80px 0px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 180px;
+  width: 100%;
+}
+
+.footer-section a {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--font-color);
+  margin-right: 10px;
+}
+
+.footer-section a:hover {
+  color: var(--font-hover);
+}
+
+.footer-section .wrapper-submenu {
+  position: relative;
+  cursor: pointer;
+}
+
+.footer-section .new-badge {
+  padding: 2px;
+  border-radius: 2px;
+  display: flex;
+  background-color: #fd6d0a;
+  cursor: pointer;
+}
+
+.footer-section.new-badge:hover {
+  background-color: #f18d4a;
+}
+
+.footer-section .privacy {
+  margin-top: 45px;
+  align-items: center;
+  font-size: 19px;
+}
+
+.footer-socialmedia {
+  border: 0.4px solid transparent;
+  border-top-color: var(--border-color);
+  border-bottom-color: var(--border-color);
+  padding: 28px 0px;
+}
+
+.footer-socialmedia .innerwrapper {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-socialmedia .innerwrapper .socialmedia-content {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  /* flex-wrap: wrap; */
+}
+
+.footer-socialmedia .innerwrapper .socialmedia-content .Follow-Us h3 {
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.footer-socialmedia .innerwrapper .setter {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8c8c8c;
+  max-width: 587px;
+  width: 100%;
+}
+
+.footer-socialmedia .innerwrapper .socialmedia-content .badge {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.footer-legalLinks {
+  padding: 40px 0px;
+  border-bottom: 0.4px solid var(--border-color);
+}
+
+.footer-legalLinks .legalLinks-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-legalLinks .legalLinks-Content .logo img {
+  max-width: 106px;
+  max-height: 24px;
+  width: 100%;
+}
+
+.footer-legalLinks .legalLinks-Content .legalLink {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.footer-legalLinks .legalLinks-Content .legalLink .link a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #d9d9d9;
+}
+
+.footer-copyRight {
+  padding: 20px 0;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.footer-copyRight p {
+  font-size: 14px;
+}
+
+
+@media (max-width: 1200px) {
+  .footer-links {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+  }
+  
+  .footer-socialmedia .innerwrapper .setter {
+    width: 50%;
+  }
+  
+  .footer-socialmedia .innerwrapper .socialmedia-content .badge {
+    max-width: 38px;
+    max-height: 38px;
+  }
+}
+
+@media (max-width: 992px) {
+  .badges {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .footer-socialmedia .innerwrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-socialmedia .innerwrapper .socialmedia-content {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+  
+  
+  .footer-socialmedia .innerwrapper .socialmedia-content .Follow-us {
+    width: 25%;
+  }
+  
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .newsletter-content {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+  
+  .newsletter-content .subscribe {
+    padding-right: 0;
+    width: 100%;
+  }
+  
+  .footer-socialmedia .innerwrapper .setter {
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+  }
+  
+  .footer-legalLinks .legalLinks-Content .legalLink {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .footer-legalLinks .legalLinks-Content .legalLink .link {
+    border: none !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .Email-form {
+    display: flex;
+  }
+  
+  .btn.footer {
+    position: unset;
+  }
+  
+  .newsletter-content .subscribe .input-group input {
+    width: 100%;
+  }
+  
+  .newsletter-content {
+    padding: 40px 0px;
+  }
+  
+  .badges {
+    flex-wrap: nowrap;
+  }
+  
+  .badges .badge {
+    max-width: 44px;
+    max-height: 44px;
+    padding: 6.35px;
+    border-radius: 6.35px;
+    border-width: 1px;
+  }
+  .badges .badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .footer-links {
+    border: none;
+    padding: unset;
+    display: unset;
+  }
+  .footer-section {
+    padding: 18px 0px;
+    position: relative;
+    border-bottom: 1px solid #334454;
+  }
+  
+  .mobile-menu h3::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../public/assets/Images/arrow-head.svg);
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+    width: 10px;
+    background-size: 100%;
+    height: 10px;
+    background-repeat: no-repeat;
+  }
+  .mobile-menu ul{
+    transform: translatex(10px);
+  }
+  .footer-section h3 {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .mobile-menu ul {
+    max-height: 0; /* Start with max-height of 0 */
+    overflow: hidden; /* Hide overflow */
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition */
+    opacity: 0; /* Start with opacity 0 */
+}
+
+.mobile-menu.active ul{   
+    max-height: 500px; /* Set a max-height that is greater than the content */
+    opacity: 1; /* Fade in */
+}
+.footer-section ul li{
+  padding-right: 50px;
+  max-width: unset;
+}
+  .footer-socialmedia {
+    border-top: none;
+    padding: 40px 0px;
+  }
+
+  .footer-legalLinks .legalLinks-Content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: unset;
+  }
+
+  .footer-legalLinks .legalLinks-Content .legalLink {
+    align-items: flex-start;
+  }
+  .footer-copyRight p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 535px){
+  footer{
+    padding: 60px 0px 0px;
+  }
+  .newsletter-content{
+    padding: 0px 0px 40px 0px;
+  }
+  .badges .badge{
+    padding: 5.35px;
+  }
+}

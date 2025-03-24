@@ -1,0 +1,66 @@
+.post-listing-with-filter-section{
+    background: linear-gradient(180deg, #F1F6FB 0%, #FDFDFD 100%);
+}
+.postItem{
+    padding: 0px 0px 80px;
+    display: flex;
+    gap:48px;
+}
+.postItem .listing {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.listing .list-item{
+    display: flex;
+    align-items: center;
+    height: max-content;
+    font-family: Urbanist;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #66737f;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.listing .active{
+    background-color: #276ef0;
+    color: #e5e8ea;
+}
+.postItem .postListing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.postItem .postListing .search-wrap{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #e5e8ea;
+    border-bottom: 1px solid #e5e8ea;
+    position: relative;
+
+}
+.search-wrap input[type=text] {
+    width: 100%;
+    height: max-content;
+    min-height: 86px;
+    border: 0;
+    color: #001529;
+    padding: 16px;
+    background-color: transparent;
+    outline: none;
+    font-family: Urbanist !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+.search-wrap .search-icon {
+    height: max-content;
+    min-height: 86px;
+    border: 0;
+    color: #001529;
+    padding: 16px;
+    background-color: transparent;
+}

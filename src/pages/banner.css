@@ -1,0 +1,77 @@
+
+.banner-section{
+    padding:120px 0px;
+    background-color: #F1F6FB;
+}
+
+.banner{
+    font-family: Urbanist;
+    font-weight: 600;
+    gap:60px;
+    display:flex;
+    flex-direction: column;
+}
+.banner-section .banner-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.banner-section .banner-content h1{
+    color: #FD6D0A;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.banner-section .banner-content h2{
+    font-family: Rufina;
+    font-weight: 400;
+    font-size: 64px;
+}
+.banner-section .banner-content span{
+    color:#99A1A9;
+} 
+
+.banner-section .banner-content p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #66737F;
+}
+
+.banner-section .post-itm {
+    padding: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 12px;
+    width: 100%;
+    background-color: #FDFDFD;
+    align-items: center;
+    gap:40px;
+    box-shadow: 0 20px 24px -4px rgba(98, 145, 247, .078);
+}
+.banner-section .post-itm .post-img img{
+    width: 100%;
+    height:auto;
+    border-radius: 12px;
+}
+.banner-section  .post-itm .post-description {
+    display: flex;
+    flex-direction: column;
+    gap:38px
+}
+.banner-section .post-itm .post-description .banner-text{
+    font-family: Rufina;
+    font-weight: 400;
+    font-size: 32px;
+    color: #001529;
+    transition: color 0.3s ;
+}
+.banner-section .post-itm .post-description .banner-text:hover{
+    color: #fd8f45;
+}
+.banner-section .post-itm .post-description .btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: fit-content;
+}
