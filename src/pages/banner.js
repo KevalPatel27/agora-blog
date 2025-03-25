@@ -1,7 +1,7 @@
 import React from "react";
 import Author from "../components/author.js";
 import "./banner.css";
-import List from "./ListingSearching_on_post.js"
+import List from "./ListingSearching_on_post.js";
 
 const banner = () => {
   const authors = {
@@ -10,7 +10,7 @@ const banner = () => {
     name: "Mark Goldfinger",
     date: "Mar 19. 2025",
   };
-  
+
   return (
     <>
       <section className="banner-section">

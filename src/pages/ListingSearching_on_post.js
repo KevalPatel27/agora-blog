@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import './ListingSearching_on_post.css'
+import React, { useEffect, useState } from "react";
+import BlogList from "../components/blogList.js";
+import "./ListingSearching_on_post.css";
 
 const ListingSearching_on_post = () => {
   const Lists = [
@@ -31,162 +32,102 @@ const ListingSearching_on_post = () => {
     "Waterfall automation",
   ];
 
-  const apiData = [
-    {
-      image: "",
-      title: ["Investment strategies", "CRE investment management"],
-      description:
-        "What is a multifamily home? Exploring a popular asset class",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Asaf Raz",
-        date: "Mar 13, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Alternative investments", "Investment strategies"],
-      description: "Fast financing: Commercial real estate hard money lenders",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Asaf Raz",
-        date: "Mar 03, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Awards and recognitions"],
-      description: "Celebrating the 2025 Agora Growth Awards winners",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Danielle VanHest",
-        date: "Feb 25, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Awards and recognitions"],
-      description:
-        "Agora wins G2's 2025 Best Software Awards for Fastest Growing and Best Real Estate Software",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Danielle VanHest",
-        date: "Feb 20, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Investment strategies", "Fundraising"],
-      description:
-        "How real estate equity financing can transform your investment strategy",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Asaf Raz",
-        date: "Feb 18, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Tax", "Accounting"],
-      description:
-        "Reimagine your accounting: File your taxes in 14 days with Agora's technology and expert CPAs",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Julia Benichou",
-        date: "Feb 17, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Fundraising","Market trends and insights"],
-      description:
-        "2025 CRE Fundraising Market Pulse: Key takeaways and highlights ",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Danielle VanHest",
-        date: "Feb 17, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Investment strategies"],
-      description:
-        "15 best commercial real estate liquidity strategies for 2025",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Asaf Raz ",
-        date: "Feb 12, 2025",
-      },
-    },
-    {
-      image: "",
-      title: ["Payments"],
-      description:
-        "Automated distribution payments: The key to smarter investment management",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Danielle VanHest",
-        date: "Feb 02, 2025",
-      },
-    },
-    {
-      image: "Awards and recognitions",
-      title: [],
-      description:
-        "Agora named one of the “20 Hottest PropTech Startups of 2024” by Business Insider  ",
-      authors: {
-        link: "#",
-        image: "../assets/Images/blog-author/image.png",
-        name: "Danielle VanHest",
-        date: "Jan 30, 2025",
-      },
-    },
-  ];
-
+  const [allPosts, setAllPosts] = useState([]); // Store all fetched posts
+  const [filteredPosts, setFilteredPosts] = useState([]); // Store filtered posts
+  const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [searchValue, setSearchValue] = useState('');
+  const [searchValue, setSearchValue] = useState(""); // Store search input
+
+  useEffect(() => {
+    const fetchposts = async () => {
+      try {
+        const response = await fetch(
+          "https://websiteapi.agorareal.com/wp-json/agora/v1/posts-by-category-slug-or-id?tags=&category=blog&event=loader&pathval=blog&per_page=40&page=1"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const result = await response.json();
+        setAllPosts(result.all_post_list);
+        setFilteredPosts(result.all_post_list); // Initially set filteredPosts same as allPosts
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchposts();
+  }, []);
+
+  // Function to filter posts based on category & search
+  const filterPosts = (categoryIndex, searchText) => {
+    let updatedPosts = allPosts;
+
+    // Filter by category
+    if (categoryIndex !== 0) {
+      const selectedCategory = Lists[categoryIndex];
+      updatedPosts = updatedPosts.filter(post =>
+        post.tag_list.includes(selectedCategory)
+      );
+    }
+
+    // Filter by search text
+    if (searchText.trim() !== "") {
+      updatedPosts = updatedPosts.filter(post =>
+        post.post_title.toLowerCase().includes(searchText.toLowerCase())
+      );
+    }
+
+    setFilteredPosts(updatedPosts);
+  };
+
+  // Handle category click
+  const handleCategoryClick = (index) => {
+    setActiveIndex(index);
+    filterPosts(index, searchValue); // Apply category and search filter together
+  };
+
+  // Handle search input
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchValue(value);
+    filterPosts(activeIndex, value); // Apply category and search filter together
+  };
 
   return (
     <section className="post-listing-with-filter-section">
       <div className="container">
         <div className="postItem">
+          {/* Category List */}
           <ul className="listing">
-            {Lists.map((list, index) => {
-              return (
-                <>
-                  <li 
-                    key={list.id} 
-                    className={`list-item ${activeIndex === index ? 'active' : ''}`}
-                    onClick={() => setActiveIndex(index)}
-                    >
-                    {list}
-                  </li>
-                </>
-              );
-            })}
+            {Lists.map((list, index) => (
+              <li
+                key={list}
+                className={`list-item ${activeIndex === index ? "active" : ""}`}
+                onClick={() => handleCategoryClick(index)}
+              >
+                {list}
+              </li>
+            ))}
           </ul>
-          <div className='postListing'>
+
+          {/* Search Box */}
+          <div className="postListing">
             <div className="search-wrap">
-              <input 
-                className='seraching-field' 
-                type="text" 
-                placeholder='Search articles here' 
+              <input
+                className="seraching-field"
+                type="text"
+                placeholder="Search articles here"
                 value={searchValue}
-                onChange={(e) => setSearchValue(e.target.value)}
+                onChange={handleSearchChange}
               />
-              <button type="search" className='search-icon'>
-                <img src="../assets/Images/search-icon.svg" alt="serach Icon"/>
+              <button type="search" className="search-icon">
+                <img src="../assets/Images/search-icon.svg" alt="Search Icon" />
               </button>
             </div>
+
+            {/* Blog List */}
+            {loading ? <p>Loading...</p> : <BlogList posts={filteredPosts} />}
           </div>
         </div>
       </div>

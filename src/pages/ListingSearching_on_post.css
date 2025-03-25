@@ -34,6 +34,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 48px;
+    padding-left:48px;
+    border-left:1px solid #e5e8ea
 }
 .postItem .postListing .search-wrap{
     display: flex;
