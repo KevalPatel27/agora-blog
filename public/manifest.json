@@ -1,1685 +1,137 @@
 {
-  "all_post_list": [
+  "all_flexible_content": [
     {
-      "ID": 16830,
-      "post_date": "Mar 19, 2025",
-      "post_title": "Office space is making a comeback but not as you know it",
-      "post_status": "publish",
-      "post_name": "office-space-is-making-a-comeback-but-not-as-you-know-it",
-      "post_type": "post",
-      "post_id": "16830",
-      "external_url": null,
-      "post_publish_date": "Mar 19, 2025",
-      "post_modified_date": "Mar 19, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1742378273/mark-goldfinger-blog-cover/mark-goldfinger-blog-cover.webp?_i=AA",
-      "tag_list": [],
-      "select_author": {
-        "author_ID": 16831,
-        "author_post_title": "Mark Goldfinger",
-        "author_content": "\u003Cp\u003E\u003Cspan style=\"font-weight: 400;\"\u003EMark Goldfinger is General Manager and Head of North America at \u003C/span\u003E\u003Ca href=\"https://www.mindspace.me\" target=\"_blank\" rel=\"noopener\"\u003E\u003Cspan style=\"font-weight: 400;\"\u003EMindspace\u003C/span\u003E\u003C/a\u003E\u003Cspan style=\"font-weight: 400;\"\u003E, a global provider of flexible office spaces focused on enhancing workplace experiences for companies of all sizes. Mark previously spent six years at WeWork, where he led the sales team in Greater China and drove expansion into new markets.\u003C/span\u003E\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/mark-goldfinger/",
-        "author_image": {
-          "img_title": "author-image",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1742364717/author-image/author-image.webp?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1742364717/author-image/author-image.webp?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1742364717/author-image/author-image.webp?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1742364717/author-image/author-image.webp?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1742364717/author-image/author-image.webp?_i=AA",
-          "img_alt": ""
+      "acf_fc_layout": "hero_banner",
+      "site_banner": {
+        "is_background_animated": false,
+        "theme_color": false,
+        "remove_gradient": false,
+        "gradient_reverse": false,
+        "font_weight": false,
+        "grey_color_title": false,
+        "primary_heading": "Real estate investment \u003Cspan\u003Eblog\u003C/span\u003E",
+        "secondary_heading": "Blog",
+        "short_description": "Stay up-to-date with the latest trends, success stories, and expert advice to maximize your real estate investment potential.",
+        "want_to_add_button": false,
+        "button_types": false,
+        "want_to_add_cards": true,
+        "card_style": "card_style_2",
+        "five_cards_per_row": false,
+        "": null,
+        "card_title_position": "title_above_image",
+        "cardstyle_2": {
+          "featured_post_type": "Recent Post",
+          "main_post_selector": [
+            {
+              "id": 16927,
+              "post_name": "housing-inflation",
+              "post_title": "Housing inflation trends: Maximizing returns in 2025",
+              "post_type": "post",
+              "post_date": "2025-03-24 11:15:37",
+              "excerpt": "",
+              "imgurl": "https://res.cloudinary.com/de1ep59a0/images/v1742815079/housing-inflation/housing-inflation.webp?_i=AA",
+              "post_url": "https://websiteapi.agorareal.com/blog/housing-inflation/",
+              "tag_list": [],
+              "select_author": {
+                "author_ID": 3709,
+                "author_post_title": "Asaf Raz",
+                "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
+                "author_excerpt": "",
+                "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
+                "author_image": {
+                  "img_title": "Frame-6.png",
+                  "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
+                  "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
+                  "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
+                  "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
+                  "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
+                  "img_alt": ""
+                },
+                "author_initials": "AR",
+                "author_social_sharer": [
+                  {
+                    "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
+                    "share_url": "https://www.linkedin.com/in/raz-asaf/",
+                    "icon_alt": "linkedin"
+                  }
+                ]
+              },
+              "post_publish_date": "Mar 24, 2025",
+              "post_modified_date": "Mar 25, 2025",
+              "post_read_time": "8 min reading",
+              "external_url": null
+            }
+          ],
+          "recent_multiple_post_taxonomy": "Category",
+          "recent_multiple_post_category": "1",
+          "recent_multiple_post_tags": []
         },
-        "author_initials": "MG",
-        "author_social_sharer": [
+        "typographer": {
+          "wants_to_change_typo": null,
+          "agora_font_family": null,
+          "agora_font_size": null,
+          "font_weight": false
+        }
+      }
+    },
+    {
+      "acf_fc_layout": "post_listing_section",
+      "post_list_theme": {
+        "theme_color": false,
+        "remove_gradient": true,
+        "gradient_reverse": true
+      }
+    },
+    {
+      "acf_fc_layout": "cta",
+      "cta_style": "CTA Style 1",
+      "cta_theme": {
+        "theme_color": false,
+        "remove_gradient": false,
+        "gradient_reverse": false
+      },
+      "cta_block": {
+        "primary_heading": "Ready to see\u003Cbr\u003E \u003Cspan\u003EAgora in action?\u003C/span\u003E",
+        "want_to_add_button": true,
+        "button_types": [
           {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/mark-b-goldfinger-mba-7aa73928",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/office-space-is-making-a-comeback-but-not-as-you-know-it/"
-    },
-    {
-      "ID": 16768,
-      "post_date": "Mar 13, 2025",
-      "post_title": "What is a multifamily home? Exploring a popular asset class",
-      "post_status": "publish",
-      "post_name": "what-is-a-multi-family-home",
-      "post_type": "post",
-      "post_id": "16768",
-      "external_url": null,
-      "post_publish_date": "Mar 13, 2025",
-      "post_modified_date": "Mar 17, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1741845308/what-is-a-multi-family-home/what-is-a-multi-family-home.webp?_i=AA",
-      "tag_list": [
-        "CRE investment management",
-        "Investment strategies"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "8 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/what-is-a-multi-family-home/"
-    },
-    {
-      "ID": 16621,
-      "post_date": "Mar 03, 2025",
-      "post_title": "Fast financing: Commercial real estate hard money lenders",
-      "post_status": "publish",
-      "post_name": "commercial-real-estate-hard-money-lenders",
-      "post_type": "post",
-      "post_id": "16621",
-      "external_url": null,
-      "post_publish_date": "Mar 03, 2025",
-      "post_modified_date": "Mar 16, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1740988809/commercial-real-estate-hard-money-lenders/commercial-real-estate-hard-money-lenders.webp?_i=AA",
-      "tag_list": [
-        "Alternative investments",
-        "Investment strategies"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "8 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/commercial-real-estate-hard-money-lenders/"
-    },
-    {
-      "ID": 16304,
-      "post_date": "Feb 25, 2025",
-      "post_title": "Celebrating the 2025 Agora Growth Awards winners",
-      "post_status": "publish",
-      "post_name": "celebrating-the-2025-agora-growth-awards-winners",
-      "post_type": "post",
-      "post_id": "16304",
-      "external_url": null,
-      "post_publish_date": "Feb 25, 2025",
-      "post_modified_date": "Feb 27, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1739800889/Celebrating-the-2025-Agora-Growth-Awards-winners-1/Celebrating-the-2025-Agora-Growth-Awards-winners-1.png?_i=AA",
-      "tag_list": [
-        "Awards and recognitions"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/celebrating-the-2025-agora-growth-awards-winners/"
-    },
-    {
-      "ID": 16248,
-      "post_date": "Feb 20, 2025",
-      "post_title": "Agora wins G2’s 2025 Best Software Awards for Fastest Growing and Best Real Estate Software",
-      "post_status": "publish",
-      "post_name": "agora-wins-g2s-2025-best-software-awards-for-fastest-growing-and-best-real-estate-software",
-      "post_type": "post",
-      "post_id": "16248",
-      "external_url": null,
-      "post_publish_date": "Feb 20, 2025",
-      "post_modified_date": "Mar 19, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1740068154/Agora-wins-G2s-2025-Best-Software-Awards-for-Fastest-Growing-and-Best-Real-Estate-Software/Agora-wins-G2s-2025-Best-Software-Awards-for-Fastest-Growing-and-Best-Real-Estate-Software.png?_i=AA",
-      "tag_list": [
-        "Awards and recognitions"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/agora-wins-g2s-2025-best-software-awards-for-fastest-growing-and-best-real-estate-software/"
-    },
-    {
-      "ID": 15993,
-      "post_date": "Feb 18, 2025",
-      "post_title": "How real estate equity financing can transform your investment strategy",
-      "post_status": "publish",
-      "post_name": "real-estate-equity-financing",
-      "post_type": "post",
-      "post_id": "15993",
-      "external_url": null,
-      "post_publish_date": "Feb 18, 2025",
-      "post_modified_date": "Feb 20, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1739770480/blog-pr-awards-2027/blog-pr-awards-2027.webp?_i=AA",
-      "tag_list": [
-        "Fundraising",
-        "Investment strategies"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "6 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/real-estate-equity-financing/"
-    },
-    {
-      "ID": 16084,
-      "post_date": "Feb 17, 2025",
-      "post_title": "Reimagine your accounting: File your taxes in 14 days with Agora's technology and expert CPAs",
-      "post_status": "publish",
-      "post_name": "reimagine-your-accounting-file-your-taxes-in-14-days-with-agoras-technology-and-expert-cpas",
-      "post_type": "post",
-      "post_id": "16084",
-      "external_url": null,
-      "post_publish_date": "Feb 17, 2025",
-      "post_modified_date": "Mar 19, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1739805866/Blog-_-Reimagine-your-accounting_-File-your-taxes-in-14-days-with-Agoras-technology-and-expert-CPA_16089feceb/Blog-_-Reimagine-your-accounting_-File-your-taxes-in-14-days-with-Agoras-technology-and-expert-CPA_16089feceb.png?_i=AA",
-      "tag_list": [
-        "Accounting",
-        "Tax"
-      ],
-      "select_author": {
-        "author_ID": 3733,
-        "author_post_title": "Julia Benichou",
-        "author_content": "\u003Cp\u003EJulia is the Product Marketer at Agora. Prior to this role, she spent two years as a product onboarding expert within the company. Now, she harnesses her deep industry and customer insights to initiate all product marketing efforts.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/julia-benichou/",
-        "author_image": {
-          "img_title": "Julia-400&#215;400-2.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/julia-benichou-b7367b186/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/reimagine-your-accounting-file-your-taxes-in-14-days-with-agoras-technology-and-expert-cpas/"
-    },
-    {
-      "ID": 16067,
-      "post_date": "Feb 17, 2025",
-      "post_title": "2025 CRE Fundraising Market Pulse: Key takeaways and highlights ",
-      "post_status": "publish",
-      "post_name": "2025-cre-fundraising-market-pulse-key-takeaways-and-highlights",
-      "post_type": "post",
-      "post_id": "16067",
-      "external_url": null,
-      "post_publish_date": "Feb 17, 2025",
-      "post_modified_date": "Mar 19, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1739798396/2025-CRE-Fundraising-Market-Pulse-Key-takeaways-and-highlights/2025-CRE-Fundraising-Market-Pulse-Key-takeaways-and-highlights.png?_i=AA",
-      "tag_list": [
-        "Fundraising",
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/2025-cre-fundraising-market-pulse-key-takeaways-and-highlights/"
-    },
-    {
-      "ID": 15743,
-      "post_date": "Feb 12, 2025",
-      "post_title": "15 best commercial real estate liquidity strategies for 2025",
-      "post_status": "publish",
-      "post_name": "commercial-real-estate-liquidity-strategies",
-      "post_type": "post",
-      "post_id": "15743",
-      "external_url": null,
-      "post_publish_date": "Feb 12, 2025",
-      "post_modified_date": "Feb 20, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1739338921/commercial-real-estate-liquidity-strategies/commercial-real-estate-liquidity-strategies.webp?_i=AA",
-      "tag_list": [
-        "Investment strategies"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "7 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/commercial-real-estate-liquidity-strategies/"
-    },
-    {
-      "ID": 15611,
-      "post_date": "Feb 02, 2025",
-      "post_title": "Automated distribution payments: The key to smarter investment management",
-      "post_status": "publish",
-      "post_name": "automated-distribution-payments-the-key-to-smarter-investment-management",
-      "post_type": "post",
-      "post_id": "15611",
-      "external_url": null,
-      "post_publish_date": "Feb 02, 2025",
-      "post_modified_date": "Feb 18, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1738504919/Automated-distribution-payments/Automated-distribution-payments.png?_i=AA",
-      "tag_list": [
-        "Payments"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/automated-distribution-payments-the-key-to-smarter-investment-management/"
-    },
-    {
-      "ID": 15578,
-      "post_date": "Jan 30, 2025",
-      "post_title": "Agora named one of the “20 Hottest PropTech Startups of 2024” by Business Insider",
-      "post_status": "publish",
-      "post_name": "agora-hottest-proptech-startups-2024-business-insider",
-      "post_type": "post",
-      "post_id": "15578",
-      "external_url": null,
-      "post_publish_date": "Jan 30, 2025",
-      "post_modified_date": "Feb 18, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1738243729/Business-Insider-hottest-proptech-startups-2024/Business-Insider-hottest-proptech-startups-2024.png?_i=AA",
-      "tag_list": [
-        "Awards and recognitions"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/agora-hottest-proptech-startups-2024-business-insider/"
-    },
-    {
-      "ID": 15074,
-      "post_date": "Dec 31, 2024",
-      "post_title": "1031 Exchange basics: What commercial real estate investors need to know",
-      "post_status": "publish",
-      "post_name": "1031-exchange-basics",
-      "post_type": "post",
-      "post_id": "15074",
-      "external_url": null,
-      "post_publish_date": "Dec 31, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1735569237/1031-exchange/1031-exchange.webp?_i=AA",
-      "tag_list": [
-        "Tax and compliance",
-        "CRE investment management"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "7 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/1031-exchange-basics/"
-    },
-    {
-      "ID": 15069,
-      "post_date": "Dec 31, 2024",
-      "post_title": "Bridge loans: The competitive edge in high-stakes commercial real estate deals",
-      "post_status": "publish",
-      "post_name": "commercial-real-estate-bridge-loans",
-      "post_type": "post",
-      "post_id": "15069",
-      "external_url": null,
-      "post_publish_date": "Dec 31, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1735568498/bridge-loans/bridge-loans.webp?_i=AA",
-      "tag_list": [
-        "Fundraising",
-        "CRE investment management"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "5 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/commercial-real-estate-bridge-loans/"
-    },
-    {
-      "ID": 15065,
-      "post_date": "Dec 30, 2024",
-      "post_title": "Are commercial real estate debt funds the missing piece in your portfolio?",
-      "post_status": "publish",
-      "post_name": "commercial-real-estate-debt-funds",
-      "post_type": "post",
-      "post_id": "15065",
-      "external_url": null,
-      "post_publish_date": "Dec 30, 2024",
-      "post_modified_date": "Feb 13, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1735567660/commercial-real-estate-debt-funds/commercial-real-estate-debt-funds.webp?_i=AA",
-      "tag_list": [
-        "Fundraising",
-        "CRE investment management"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "7 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/commercial-real-estate-debt-funds/"
-    },
-    {
-      "ID": 15058,
-      "post_date": "Dec 30, 2024",
-      "post_title": "Gross scheduled income: Your roadmap to evaluating property performance",
-      "post_status": "publish",
-      "post_name": "gross-scheduled-income",
-      "post_type": "post",
-      "post_id": "15058",
-      "external_url": null,
-      "post_publish_date": "Dec 30, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1735563589/gross-scheduled-income/gross-scheduled-income.webp?_i=AA",
-      "tag_list": [
-        "CRE investment management"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "6 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/gross-scheduled-income/"
-    },
-    {
-      "ID": 14816,
-      "post_date": "Dec 18, 2024",
-      "post_title": "How to adopt AI in commercial real estate: A beginners’ guide",
-      "post_status": "publish",
-      "post_name": "ai-in-commercial-real-estate",
-      "post_type": "post",
-      "post_id": "14816",
-      "external_url": null,
-      "post_publish_date": "Dec 18, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1734532558/BLOG-_-How-to-adopt-AI-in-commercial-real-estate_-A-beginners-guide-1/BLOG-_-How-to-adopt-AI-in-commercial-real-estate_-A-beginners-guide-1.png?_i=AA",
-      "tag_list": [
-        "AI and automation"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "6 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/ai-in-commercial-real-estate/"
-    },
-    {
-      "ID": 12300,
-      "post_date": "Dec 03, 2024",
-      "post_title": "5 Ways multifamily outshines other real estate assets",
-      "post_status": "publish",
-      "post_name": "5-ways-multifamily-outshines-other-real-estate-assets",
-      "post_type": "post",
-      "post_id": "12300",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Mar 02, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733228631/Zach-winner/Zach-winner.png?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 12232,
-        "author_post_title": "Zach Winner",
-        "author_content": "\u003Cp\u003EZach Winner earned his Bachelor of Arts degree from the University of Southern California and his Juris Doctor law degree from the McGeorge School of Law at the University of the Pacific. He is the CEO and a founding partner of Prosperity CRE, which focuses on multifamily investments. His background includes operating real estate, mortgage, and escrow offices throughout California.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/zach-winner/",
-        "author_image": {
-          "img_title": "Zach-Winner-Author",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1733225721/Zach-Winner-Author/Zach-Winner-Author.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1733225721/Zach-Winner-Author/Zach-Winner-Author.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1733225721/Zach-Winner-Author/Zach-Winner-Author.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1733225721/Zach-Winner-Author/Zach-Winner-Author.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1733225721/Zach-Winner-Author/Zach-Winner-Author.png?_i=AA",
-          "img_alt": "Zach-Winner-Author"
-        },
-        "author_initials": "ZW",
-        "author_social_sharer": []
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/5-ways-multifamily-outshines-other-real-estate-assets/"
-    },
-    {
-      "ID": 12295,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Agora wins Duns 100 “Best Start-Up Companies to Work For Over 100 Employees”",
-      "post_status": "publish",
-      "post_name": "agora-wins-duns-100-best-start-up-companies-to-work-for-over-100-employees",
-      "post_type": "post",
-      "post_id": "12295",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Feb 18, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733230418/BLOG-_-DUNs-100_1231081a8e/BLOG-_-DUNs-100_1231081a8e.webp?_i=AA",
-      "tag_list": [
-        "Awards and recognitions"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/agora-wins-duns-100-best-start-up-companies-to-work-for-over-100-employees/"
-    },
-    {
-      "ID": 12227,
-      "post_date": "Dec 03, 2024",
-      "post_title": "The 100-day home: Accelerating affordability in real estate and opening doors for investors",
-      "post_status": "publish",
-      "post_name": "100-day-home-boosting-affordability-and-investment-potential",
-      "post_type": "post",
-      "post_id": "12227",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733225890/Dale-wills/Dale-wills.png?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 12228,
-        "author_post_title": "Dale Wills",
-        "author_content": "\u003Cp\u003EDale Wills is an experienced land developer who has been involved in the real estate industry for more than 35 years. He is the owner and founder of Centra Companies, and since 2011, he has overseen the development of more than 1,500 homes across 50+ projects totaling more than $500 million in project value. He recently established Centra Capital Partners, a real estate syndication company partnering with accredited investors to build wealth through ground-up single-family home developments in the Midwest.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/dale-wills/",
-        "author_image": {
-          "img_title": "Dale-Wills-Author",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1733225634/Dale-Wills-Author/Dale-Wills-Author.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1733225634/Dale-Wills-Author/Dale-Wills-Author.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1733225634/Dale-Wills-Author/Dale-Wills-Author.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1733225634/Dale-Wills-Author/Dale-Wills-Author.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1733225634/Dale-Wills-Author/Dale-Wills-Author.png?_i=AA",
-          "img_alt": "Dale-Wills-Author"
-        },
-        "author_initials": "DW",
-        "author_social_sharer": []
-      },
-      "post_read_time": "5 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/100-day-home-boosting-affordability-and-investment-potential/"
-    },
-    {
-      "ID": 12066,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Smart Questionnaire: The secret to increasing investor conversions",
-      "post_status": "publish",
-      "post_name": "smart-questionnaire-the-secret-to-increasing-investor-conversions",
-      "post_type": "post",
-      "post_id": "12066",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733228665/Blog-_-Smart-Questionnaire_-The-secret-to-increasing-investor-conversions-1/Blog-_-Smart-Questionnaire_-The-secret-to-increasing-investor-conversions-1.png?_i=AA",
-      "tag_list": [
-        "Fundraising"
-      ],
-      "select_author": {
-        "author_ID": 3713,
-        "author_post_title": "Jamie Stadtmauer",
-        "author_content": "\u003Cdiv id=\"message-list-preview-list_1719479532.832699\" class=\"c-virtual_list__item\" tabindex=\"-1\" role=\"listitem\" aria-label=\"Danielle VanHest. Hi Jamie, how are you? I am working on updating the bios for our website and wanted to see if this updated version is approved by you or if there is anything you'd like me to change/add:\n\nJamie Stadtmauer is the VP of Business Development at Agora, bringing over 20 years of experience in commercial real estate investing. His extensive background and expertise in the industry play a crucial role in driving Agora's growth and expanding its market presence while building strong client relationships and developing strategic partnerships. At 12:12 PM.\" aria-setsize=\"-1\" data-qa=\"virtual-list-item\" data-item-key=\"1719479532.832699\"\u003E\u003C/p\u003E\n\u003Cdiv class=\"c-message_kit__background c-message_kit__background--hovered p-message_pane_message__message c-message_kit__message\" role=\"presentation\" data-qa=\"message_container\" data-qa-unprocessed=\"false\" data-qa-placeholder=\"false\"\u003E\n\u003Cdiv class=\"c-message_kit__hover c-message_kit__hover--hovered\" role=\"document\" aria-roledescription=\"message\" data-qa-hover=\"true\"\u003E\n\u003Cdiv class=\"c-message_kit__actions c-message_kit__actions--default\"\u003E\n\u003Cdiv class=\"c-message_kit__gutter\"\u003E\n\u003Cdiv class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\"\u003E\n\u003Cdiv class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\"\u003E\n\u003Cdiv class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\"\u003E\n\u003Cdiv class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\"\u003E\n\u003Cdiv class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\"\u003E\n\u003Cdiv class=\"p-rich_text_block\" dir=\"auto\"\u003E\n\u003Cdiv class=\"p-rich_text_section\"\u003EJamie Stadtmauer is the VP of Business Development at Agora, bringing over 20 years of experience in commercial real estate investing. His extensive background and expertise in the industry play a crucial role in driving Agora&#8217;s growth and expanding its market presence while building strong client relationships and developing strategic partnerships.\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/jamie-stadtmauer/",
-        "author_image": {
-          "img_title": "Jamie-Stadtmauer",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JS",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/jamie-stadtmauer-7024b148/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/smart-questionnaire-the-secret-to-increasing-investor-conversions/"
-    },
-    {
-      "ID": 12073,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Expert accounting for real estate firms with Agora’s integrated tax and bookkeeping services",
-      "post_status": "publish",
-      "post_name": "expert-accounting-for-real-estate-firms-with-agoras-integrated-tax-and-bookkeeping-services",
-      "post_type": "post",
-      "post_id": "12073",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Feb 13, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733225396/Expert-accounting/Expert-accounting.webp?_i=AA",
-      "tag_list": [
-        "Bookkeeping",
-        "Tax"
-      ],
-      "select_author": {
-        "author_ID": 3733,
-        "author_post_title": "Julia Benichou",
-        "author_content": "\u003Cp\u003EJulia is the Product Marketer at Agora. Prior to this role, she spent two years as a product onboarding expert within the company. Now, she harnesses her deep industry and customer insights to initiate all product marketing efforts.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/julia-benichou/",
-        "author_image": {
-          "img_title": "Julia-400&#215;400-2.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/julia-benichou-b7367b186/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/expert-accounting-for-real-estate-firms-with-agoras-integrated-tax-and-bookkeeping-services/"
-    },
-    {
-      "ID": 12069,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Simplify investor onboarding with Agora's Smart Questionnaire",
-      "post_status": "publish",
-      "post_name": "simplify-investor-onboarding-with-agoras-smart-questionnaire",
-      "post_type": "post",
-      "post_id": "12069",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733225051/Smart-Questionnaire/Smart-Questionnaire.webp?_i=AA",
-      "tag_list": [
-        "Fundraising"
-      ],
-      "select_author": {
-        "author_ID": 3733,
-        "author_post_title": "Julia Benichou",
-        "author_content": "\u003Cp\u003EJulia is the Product Marketer at Agora. Prior to this role, she spent two years as a product onboarding expert within the company. Now, she harnesses her deep industry and customer insights to initiate all product marketing efforts.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/julia-benichou/",
-        "author_image": {
-          "img_title": "Julia-400&#215;400-2.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/julia-benichou-b7367b186/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/simplify-investor-onboarding-with-agoras-smart-questionnaire/"
-    },
-    {
-      "ID": 12063,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Streamline your real estate finances with Agora’s expert bookkeeping services",
-      "post_status": "publish",
-      "post_name": "streamline-your-real-estate-finances-with-agoras-expert-bookkeeping-services",
-      "post_type": "post",
-      "post_id": "12063",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733211751/Streamline-your-real-estate-finances-with-Agoras-expert-bookkeeping-services/Streamline-your-real-estate-finances-with-Agoras-expert-bookkeeping-services.webp?_i=AA",
-      "tag_list": [
-        "Accounting",
-        "Bookkeeping"
-      ],
-      "select_author": {
-        "author_ID": 3733,
-        "author_post_title": "Julia Benichou",
-        "author_content": "\u003Cp\u003EJulia is the Product Marketer at Agora. Prior to this role, she spent two years as a product onboarding expert within the company. Now, she harnesses her deep industry and customer insights to initiate all product marketing efforts.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/julia-benichou/",
-        "author_image": {
-          "img_title": "Julia-400&#215;400-2.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/julia-benichou-b7367b186/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/streamline-your-real-estate-finances-with-agoras-expert-bookkeeping-services/"
-    },
-    {
-      "ID": 12059,
-      "post_date": "Dec 03, 2024",
-      "post_title": "Protecting sensitive information: The critical role of NDAs in real estate fundraising",
-      "post_status": "publish",
-      "post_name": "critical-role-of-ndas-in-real-estate-fundraising",
-      "post_type": "post",
-      "post_id": "12059",
-      "external_url": null,
-      "post_publish_date": "Dec 03, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1733210694/BLOG-_-The-critical-role-of-NDAs-in-real-estate-fundraising/BLOG-_-The-critical-role-of-NDAs-in-real-estate-fundraising.webp?_i=AA",
-      "tag_list": [
-        "Fundraising",
-        "Security"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/critical-role-of-ndas-in-real-estate-fundraising/"
-    },
-    {
-      "ID": 6210,
-      "post_date": "Oct 02, 2024",
-      "post_title": "Tax considerations in an election year: Key insights from the IMN CFO & COO Forum 2024",
-      "post_status": "publish",
-      "post_name": "tax-considerations-in-an-election-year",
-      "post_type": "post",
-      "post_id": "6210",
-      "external_url": null,
-      "post_publish_date": "Oct 02, 2024",
-      "post_modified_date": "Feb 18, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731394992/tax-cons/tax-cons.webp?_i=AA",
-      "tag_list": [
-        "Tax"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/tax-considerations-in-an-election-year/"
-    },
-    {
-      "ID": 6209,
-      "post_date": "Oct 02, 2024",
-      "post_title": "Real estate CFOs on adapting to market shifts: Insights from the IMN CFO & COO Forum",
-      "post_status": "publish",
-      "post_name": "real-estate-cfos-on-adapting-to-market-shifts",
-      "post_type": "post",
-      "post_id": "6209",
-      "external_url": null,
-      "post_publish_date": "Oct 02, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395625/CFOs-on-adapting-markets/CFOs-on-adapting-markets.webp?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/real-estate-cfos-on-adapting-to-market-shifts/"
-    },
-    {
-      "ID": 6206,
-      "post_date": "Sep 25, 2024",
-      "post_title": "CRE trends in 2024: Outlook, technologies, and investment opportunities",
-      "post_status": "publish",
-      "post_name": "cre-trends",
-      "post_type": "post",
-      "post_id": "6206",
-      "external_url": null,
-      "post_publish_date": "Sep 25, 2024",
-      "post_modified_date": "Feb 18, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395618/cre-trends-blogs/cre-trends-blogs.webp?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "6 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/cre-trends/"
-    },
-    {
-      "ID": 6205,
-      "post_date": "Sep 25, 2024",
-      "post_title": "How to increase your commercial real estate property value using stacking plans",
-      "post_status": "publish",
-      "post_name": "stacking-plans",
-      "post_type": "post",
-      "post_id": "6205",
-      "external_url": null,
-      "post_publish_date": "Sep 25, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395602/how-increase-real-estate/how-increase-real-estate.webp?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "5 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/stacking-plans/"
-    },
-    {
-      "ID": 6204,
-      "post_date": "Sep 25, 2024",
-      "post_title": "BRRRR Method: The real estate strategy you need to know",
-      "post_status": "publish",
-      "post_name": "brrrr-method",
-      "post_type": "post",
-      "post_id": "6204",
-      "external_url": null,
-      "post_publish_date": "Sep 25, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395583/BRRRR/BRRRR.webp?_i=AA",
-      "tag_list": [
-        "Alternative investments"
-      ],
-      "select_author": {
-        "author_ID": 3756,
-        "author_post_title": "Denver Lobo",
-        "author_content": "",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/denver-lobo/",
-        "author_image": {
-          "img_title": "Denver-Lobo-min.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396497/Denver-Lobo-min/Denver-Lobo-min.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396497/Denver-Lobo-min/Denver-Lobo-min.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396497/Denver-Lobo-min/Denver-Lobo-min.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396497/Denver-Lobo-min/Denver-Lobo-min.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396497/Denver-Lobo-min/Denver-Lobo-min.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DL",
-        "author_social_sharer": []
-      },
-      "post_read_time": "5 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/brrrr-method/"
-    },
-    {
-      "ID": 6203,
-      "post_date": "Sep 25, 2024",
-      "post_title": "How contrarian investing can transform your real estate portfolio",
-      "post_status": "publish",
-      "post_name": "how-contrarian-investing-can-transform-real-estate-portfolio",
-      "post_type": "post",
-      "post_id": "6203",
-      "external_url": null,
-      "post_publish_date": "Sep 25, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395566/contrarian-investing/contrarian-investing.webp?_i=AA",
-      "tag_list": [
-        "Alternative investments"
-      ],
-      "select_author": {
-        "author_ID": 3753,
-        "author_post_title": "Michael Bull",
-        "author_content": "\u003Cp\u003EMichael Bull, CCIM, is the founder and CEO of Bull Realty. He has over 35 years of experience in commercial real estate and has assisted clients with over $8 billion in transactions. He personally leads a team focused on office investment sales. Michael hosts America&#8217;s Commercial Real Estate Show, a popular weekly podcast featuring market intelligence, forecasts, and strategies from industry leaders. He is also a frequent speaker at national and state-level commercial real estate events.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/michael-bull/",
-        "author_image": {
-          "img_title": "400&#215;400-min.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396507/400x400-min/400x400-min.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396507/400x400-min/400x400-min.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396507/400x400-min/400x400-min.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396507/400x400-min/400x400-min.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396507/400x400-min/400x400-min.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "MB",
-        "author_social_sharer": []
-      },
-      "post_read_time": "6 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/how-contrarian-investing-can-transform-real-estate-portfolio/"
-    },
-    {
-      "ID": 6207,
-      "post_date": "Sep 24, 2024",
-      "post_title": "Navigating Limited Partnership Agreements (LPAs): Key insights from Agora’s webinar",
-      "post_status": "publish",
-      "post_name": "waterfall-webinar-summary",
-      "post_type": "post",
-      "post_id": "6207",
-      "external_url": null,
-      "post_publish_date": "Sep 24, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395549/navigating-limited/navigating-limited.webp?_i=AA",
-      "tag_list": [
-        "Investor relations",
-        "Waterfall automation"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/waterfall-webinar-summary/"
-    },
-    {
-      "ID": 6043,
-      "post_date": "Sep 23, 2024",
-      "post_title": "Make this tax season a breeze with Agora’s Tax Service",
-      "post_status": "publish",
-      "post_name": "make-this-tax-season-a-breeze-with-agoras-cpa-service",
-      "post_type": "post",
-      "post_id": "6043",
-      "external_url": null,
-      "post_publish_date": "Sep 23, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395534/tax-season/tax-season.webp?_i=AA",
-      "tag_list": [
-        "Tax"
-      ],
-      "select_author": {
-        "author_ID": 3715,
-        "author_post_title": "Shepsi Berkowitz",
-        "author_content": "\u003Cp\u003EShepsi is Agora&#8217;s Head of the Financial Products department, leading the Agora Payments, tax, and financial services globally. As a former CEO and co-founder of a tech company, Shepsi has extensive experience building various complex products and services from inception to market.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/shepsi-berkowitz/",
-        "author_image": {
-          "img_title": "Shepsi-400&#215;400-1.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396544/Shepsi-400x400-1/Shepsi-400x400-1.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396544/Shepsi-400x400-1/Shepsi-400x400-1.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396544/Shepsi-400x400-1/Shepsi-400x400-1.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396544/Shepsi-400x400-1/Shepsi-400x400-1.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396544/Shepsi-400x400-1/Shepsi-400x400-1.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "SB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/shepsi-berkowitz/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/make-this-tax-season-a-breeze-with-agoras-cpa-service/"
-    },
-    {
-      "ID": 6201,
-      "post_date": "Aug 20, 2024",
-      "post_title": "Agora achieves SOC 1 compliance milestone",
-      "post_status": "publish",
-      "post_name": "agora-achieves-soc-1-compliance-milestone",
-      "post_type": "post",
-      "post_id": "6201",
-      "external_url": null,
-      "post_publish_date": "Aug 20, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395010/Agora-attains-SOC-1compliance-scaled-1/Agora-attains-SOC-1compliance-scaled-1.webp?_i=AA",
-      "tag_list": [
-        "Company news"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "2 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/agora-achieves-soc-1-compliance-milestone/"
-    },
-    {
-      "ID": 6197,
-      "post_date": "Aug 05, 2024",
-      "post_title": "Navigating SEC regulations for funds",
-      "post_status": "publish",
-      "post_name": "navigating-sec-regulations-for-funds",
-      "post_type": "post",
-      "post_id": "6197",
-      "external_url": null,
-      "post_publish_date": "Aug 05, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395752/navigating-sec-regulations-for-funds-scaled-1/navigating-sec-regulations-for-funds-scaled-1.webp?_i=AA",
-      "tag_list": [
-        "Regulatory compliance"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/navigating-sec-regulations-for-funds/"
-    },
-    {
-      "ID": 6198,
-      "post_date": "Aug 05, 2024",
-      "post_title": "Comprehensive guide to investor reporting: Challenges and best practices",
-      "post_status": "publish",
-      "post_name": "investor-reporting",
-      "post_type": "post",
-      "post_id": "6198",
-      "external_url": null,
-      "post_publish_date": "Aug 05, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395741/comprehensive-guide-to-investor-reporting-scaled-1/comprehensive-guide-to-investor-reporting-scaled-1.webp?_i=AA",
-      "tag_list": [
-        "Investor relations",
-        "Operational efficiency"
-      ],
-      "select_author": {
-        "author_ID": 3713,
-        "author_post_title": "Jamie Stadtmauer",
-        "author_content": "\u003Cdiv id=\"message-list-preview-list_1719479532.832699\" class=\"c-virtual_list__item\" tabindex=\"-1\" role=\"listitem\" aria-label=\"Danielle VanHest. Hi Jamie, how are you? I am working on updating the bios for our website and wanted to see if this updated version is approved by you or if there is anything you'd like me to change/add:\n\nJamie Stadtmauer is the VP of Business Development at Agora, bringing over 20 years of experience in commercial real estate investing. His extensive background and expertise in the industry play a crucial role in driving Agora's growth and expanding its market presence while building strong client relationships and developing strategic partnerships. At 12:12 PM.\" aria-setsize=\"-1\" data-qa=\"virtual-list-item\" data-item-key=\"1719479532.832699\"\u003E\u003C/p\u003E\n\u003Cdiv class=\"c-message_kit__background c-message_kit__background--hovered p-message_pane_message__message c-message_kit__message\" role=\"presentation\" data-qa=\"message_container\" data-qa-unprocessed=\"false\" data-qa-placeholder=\"false\"\u003E\n\u003Cdiv class=\"c-message_kit__hover c-message_kit__hover--hovered\" role=\"document\" aria-roledescription=\"message\" data-qa-hover=\"true\"\u003E\n\u003Cdiv class=\"c-message_kit__actions c-message_kit__actions--default\"\u003E\n\u003Cdiv class=\"c-message_kit__gutter\"\u003E\n\u003Cdiv class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\"\u003E\n\u003Cdiv class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\"\u003E\n\u003Cdiv class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\"\u003E\n\u003Cdiv class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\"\u003E\n\u003Cdiv class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\"\u003E\n\u003Cdiv class=\"p-rich_text_block\" dir=\"auto\"\u003E\n\u003Cdiv class=\"p-rich_text_section\"\u003EJamie Stadtmauer is the VP of Business Development at Agora, bringing over 20 years of experience in commercial real estate investing. His extensive background and expertise in the industry play a crucial role in driving Agora&#8217;s growth and expanding its market presence while building strong client relationships and developing strategic partnerships.\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n\u003C/div\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/jamie-stadtmauer/",
-        "author_image": {
-          "img_title": "Jamie-Stadtmauer",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1736159519/Jamie-Stadtmauer/Jamie-Stadtmauer.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JS",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/jamie-stadtmauer-7024b148/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "7 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/investor-reporting/"
-    },
-    {
-      "ID": 6191,
-      "post_date": "Aug 01, 2024",
-      "post_title": "Putting AI into practice for better investment returns",
-      "post_status": "publish",
-      "post_name": "putting-ai-into-practice-for-better-investment-returns",
-      "post_type": "post",
-      "post_id": "6191",
-      "external_url": null,
-      "post_publish_date": "Aug 01, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395784/Putting-AI-Into-practice-for-better-investment-returns/Putting-AI-Into-practice-for-better-investment-returns.webp?_i=AA",
-      "tag_list": [
-        "AI and automation"
-      ],
-      "select_author": {
-        "author_ID": 3739,
-        "author_post_title": "Michael Salafia",
-        "author_content": "\u003Cp\u003EMichael Salafia is the Managing Partner of Miami-based \u003Ca href=\"https://staxre.com/\" target=\"_blank\" rel=\"noopener\"\u003ESTAX Real Estate\u003C/a\u003E and the CEO of Miami-based \u003Ca href=\"https://reupfuel.com\" target=\"_blank\" rel=\"noopener\"\u003ERe-Up\u003C/a\u003E. STAX Real Estate is an industry leading platform for the sale leaseback of net lease retail properties. From acquisition through construction, the platform consistently delivers some of the highest yields in the market. Re-Up is a gas station and convenience store retail operator, focused on elevating customer experience through the integration of AI-powered technology and design.\u003C/p\u003E\n\u003Cp\u003EPrior to launching STAX Real Estate and Re-Up, Salafia was an award-winning member of Marcus &amp; Millichap&#8217;s National Retail and Net Leased Groups. He holds an MBA from Northeastern University, complementing undergraduate studies in Finance at NEU and Babson College. As a licensed broker, Salafia combines real estate expertise with financial and technology acumen.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/michael-salafia/",
-        "author_image": {
-          "img_title": "Michael-Salafia-400&#215;400-1.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "MS",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/michaelsalafia/",
-            "icon_alt": "linkedin"
+            "choose_style": "primary-btn-2",
+            "turn_off": false,
+            "button_type_toggle": "Hubspot Button With Revenue Hero",
+            "iframe_url": "",
+            "hubspot_button_id": "385d07c2-df36-4cc8-8288-7e8e9e192c80",
+            "hubspot_form_title": "Discover \u003Cspan\u003Ethe best real estate investment\u003C/br\u003Emanagement experience\u003C/span\u003E",
+            "hubspot_form_sub_title": "Fill out the form below to get started",
+            "set_url": {
+              "title": "Book a demo",
+              "url": "#",
+              "target": ""
+            },
+            "is_arrow_button": true
           },
           {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605797/twitter-platform/twitter-platform.png?_i=AA",
-            "share_url": "https://twitter.com/MichaelSalafia",
-            "icon_alt": "twitter"
+            "choose_style": "secondary-btn-2",
+            "turn_off": false,
+            "button_type_toggle": "URL Button",
+            "iframe_url": "",
+            "hubspot_button_id": "",
+            "hubspot_form_title": "",
+            "hubspot_form_sub_title": "",
+            "set_url": {
+              "title": "See pricing",
+              "url": "https://websiteapi.agorareal.com/pricing/",
+              "target": ""
+            },
+            "is_arrow_button": false
           }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/putting-ai-into-practice-for-better-investment-returns/"
-    },
-    {
-      "ID": 6195,
-      "post_date": "Jul 18, 2024",
-      "post_title": "Investing in real estate opportunity zones: Essential tips and strategies for success",
-      "post_status": "publish",
-      "post_name": "real-estate-opportunity-zones",
-      "post_type": "post",
-      "post_id": "6195",
-      "external_url": null,
-      "post_publish_date": "Jul 18, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395763/Investing-in-real-estate-opportunity-zones-Essential-Tips/Investing-in-real-estate-opportunity-zones-Essential-Tips.webp?_i=AA",
-      "tag_list": [
-        "Alternative investments"
-      ],
-      "select_author": {
-        "author_ID": 3747,
-        "author_post_title": "Danielle VanHest",
-        "author_content": "\u003Cp\u003EDanielle is the Content and Communications Manager at Agora. Before joining the company, she held marketing roles in the high-tech and cybersecurity industries, refining her expertise in content strategy and brand communication. She brings her industry knowledge and marketing insights to lead Agora’s content initiatives, driving engagement and growth.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/danielle-vanhest/",
-        "author_image": {
-          "img_title": "image-1063.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396513/image-1063/image-1063.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "DV",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/danielle-vanhest/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "8 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/real-estate-opportunity-zones/"
-    },
-    {
-      "ID": 6127,
-      "post_date": "Jul 15, 2024",
-      "post_title": "Effortlessly create custom, professional investor reports with Agora’s Report Builder",
-      "post_status": "publish",
-      "post_name": "effortlessly-create-custom-professional-investor-reports-with-agoras-report-builder",
-      "post_type": "post",
-      "post_id": "6127",
-      "external_url": null,
-      "post_publish_date": "Jul 15, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395520/effortlessly-create/effortlessly-create.webp?_i=AA",
-      "tag_list": [
-        "Reporting"
-      ],
-      "select_author": {
-        "author_ID": 3733,
-        "author_post_title": "Julia Benichou",
-        "author_content": "\u003Cp\u003EJulia is the Product Marketer at Agora. Prior to this role, she spent two years as a product onboarding expert within the company. Now, she harnesses her deep industry and customer insights to initiate all product marketing efforts.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/julia-benichou/",
-        "author_image": {
-          "img_title": "Julia-400&#215;400-2.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396541/Julia-400x400-2/Julia-400x400-2.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "JB",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/julia-benichou-b7367b186/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "3 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/effortlessly-create-custom-professional-investor-reports-with-agoras-report-builder/"
-    },
-    {
-      "ID": 6187,
-      "post_date": "Jul 04, 2024",
-      "post_title": "Why multifamily real estate is a smart investment decision: 10 powerful reasons",
-      "post_status": "publish",
-      "post_name": "why-invest-in-multifamily",
-      "post_type": "post",
-      "post_id": "6187",
-      "external_url": null,
-      "post_publish_date": "Jul 04, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395515/multifamily-realestate/multifamily-realestate.webp?_i=AA",
-      "tag_list": [
-        "Market trends and insights"
-      ],
-      "select_author": {
-        "author_ID": 3709,
-        "author_post_title": "Asaf Raz",
-        "author_content": "\u003Cp\u003EAsaf is Agora&#8217;s Head of Marketing and a growth expert providing consulting services to tech startups and VCs. Asaf is also the host of The Deal Makers Podcast, where he hosts top CRE talents for conversations where they share their success stories and industry insights.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/asaf-raz/",
-        "author_image": {
-          "img_title": "Frame-6.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396550/Frame-6/Frame-6.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "AR",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/raz-asaf/",
-            "icon_alt": "linkedin"
-          }
-        ]
-      },
-      "post_read_time": "7 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/why-invest-in-multifamily/"
-    },
-    {
-      "ID": 6190,
-      "post_date": "Jul 04, 2024",
-      "post_title": "Creating an AI-powered data model for your real estate firm",
-      "post_status": "publish",
-      "post_name": "creating-an-ai-powered-data-model-for-your-real-estate-firm",
-      "post_type": "post",
-      "post_id": "6190",
-      "external_url": null,
-      "post_publish_date": "Jul 04, 2024",
-      "post_modified_date": "Jan 22, 2025",
-      "featured_image_url": "https://res.cloudinary.com/de1ep59a0/images/v1731395794/Blog-cover_Michael-Slalfia/Blog-cover_Michael-Slalfia.webp?_i=AA",
-      "tag_list": [
-        "AI and automation"
-      ],
-      "select_author": {
-        "author_ID": 3739,
-        "author_post_title": "Michael Salafia",
-        "author_content": "\u003Cp\u003EMichael Salafia is the Managing Partner of Miami-based \u003Ca href=\"https://staxre.com/\" target=\"_blank\" rel=\"noopener\"\u003ESTAX Real Estate\u003C/a\u003E and the CEO of Miami-based \u003Ca href=\"https://reupfuel.com\" target=\"_blank\" rel=\"noopener\"\u003ERe-Up\u003C/a\u003E. STAX Real Estate is an industry leading platform for the sale leaseback of net lease retail properties. From acquisition through construction, the platform consistently delivers some of the highest yields in the market. Re-Up is a gas station and convenience store retail operator, focused on elevating customer experience through the integration of AI-powered technology and design.\u003C/p\u003E\n\u003Cp\u003EPrior to launching STAX Real Estate and Re-Up, Salafia was an award-winning member of Marcus &amp; Millichap&#8217;s National Retail and Net Leased Groups. He holds an MBA from Northeastern University, complementing undergraduate studies in Finance at NEU and Babson College. As a licensed broker, Salafia combines real estate expertise with financial and technology acumen.\u003C/p\u003E\n",
-        "author_excerpt": "",
-        "author_post_url": "https://websiteapi.agorareal.com/agora-authors/michael-salafia/",
-        "author_image": {
-          "img_title": "Michael-Salafia-400&#215;400-1.png",
-          "img_thumb": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "image_single_post_thumb_url": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_medium": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_large": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_full": "https://res.cloudinary.com/de1ep59a0/images/v1731396528/Michael-Salafia-400x400-1/Michael-Salafia-400x400-1.png?_i=AA",
-          "img_alt": ""
-        },
-        "author_initials": "MS",
-        "author_social_sharer": [
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605795/linkedin-platform-2/linkedin-platform-2.png?_i=AA",
-            "share_url": "https://www.linkedin.com/in/michaelsalafia/",
-            "icon_alt": "linkedin"
-          },
-          {
-            "icon_url": "https://res.cloudinary.com/de1ep59a0/images/v1732605797/twitter-platform/twitter-platform.png?_i=AA",
-            "share_url": "https://twitter.com/MichaelSalafia",
-            "icon_alt": "twitter"
-          }
-        ]
-      },
-      "post_read_time": "4 min reading",
-      "post_url": "https://websiteapi.agorareal.com/blog/creating-an-ai-powered-data-model-for-your-real-estate-firm/"
+        ],
+        "social_repeater": false
+      }
     }
   ],
   "total_pages": 4,
-  "theme_color": false,
+  "total_posts": 135,
+  "toggle_light_header": null,
   "yoast_head_json": {
     "title": "Agora blog: Latest tips in real estate investment management",
     "description": "Explore Agora's insights on real estate investment management. Learn about ESG due diligence, commercial real estate analysis, and investment strategies.",
@@ -1756,5 +208,157 @@
         }
       ]
     }
-  }
+  },
+  "categories": [
+    {
+      "term_id": 302,
+      "name": "AI and automation",
+      "taxonomy": "post_tag",
+      "slug": "ai-and-automation"
+    },
+    {
+      "term_id": 326,
+      "name": "Accounting",
+      "taxonomy": "post_tag",
+      "slug": "accounting"
+    },
+    {
+      "term_id": 304,
+      "name": "Alternative investments",
+      "taxonomy": "post_tag",
+      "slug": "alternative-investments"
+    },
+    {
+      "term_id": 270,
+      "name": "Awards and recognitions",
+      "taxonomy": "post_tag",
+      "slug": "awards-and-recognitions"
+    },
+    {
+      "term_id": 327,
+      "name": "Bookkeeping",
+      "taxonomy": "post_tag",
+      "slug": "bookkeeping"
+    },
+    {
+      "term_id": 305,
+      "name": "CRE investment management",
+      "taxonomy": "post_tag",
+      "slug": "cre-investment-management"
+    },
+    {
+      "term_id": 271,
+      "name": "Company news",
+      "taxonomy": "post_tag",
+      "slug": "company-news"
+    },
+    {
+      "term_id": 274,
+      "name": "Debt fund management",
+      "taxonomy": "post_tag",
+      "slug": "debt-fund-management"
+    },
+    {
+      "term_id": 309,
+      "name": "Document management",
+      "taxonomy": "post_tag",
+      "slug": "document-management"
+    },
+    {
+      "term_id": 176,
+      "name": "Fundraising",
+      "taxonomy": "post_tag",
+      "slug": "fundraising"
+    },
+    {
+      "term_id": 330,
+      "name": "Investment strategies",
+      "taxonomy": "post_tag",
+      "slug": "investment-strategies"
+    },
+    {
+      "term_id": 307,
+      "name": "Investor CRM",
+      "taxonomy": "post_tag",
+      "slug": "investor-crm"
+    },
+    {
+      "term_id": 308,
+      "name": "Investor Portal",
+      "taxonomy": "post_tag",
+      "slug": "investor-portal"
+    },
+    {
+      "term_id": 299,
+      "name": "Investor relations",
+      "taxonomy": "post_tag",
+      "slug": "investor-relations"
+    },
+    {
+      "term_id": 303,
+      "name": "Market trends and insights",
+      "taxonomy": "post_tag",
+      "slug": "market-trends-and-insights"
+    },
+    {
+      "term_id": 300,
+      "name": "Operational efficiency",
+      "taxonomy": "post_tag",
+      "slug": "operational-efficiency"
+    },
+    {
+      "term_id": 329,
+      "name": "Payments",
+      "taxonomy": "post_tag",
+      "slug": "payments"
+    },
+    {
+      "term_id": 272,
+      "name": "Press releases",
+      "taxonomy": "post_tag",
+      "slug": "press-releases"
+    },
+    {
+      "term_id": 301,
+      "name": "Real estate technology",
+      "taxonomy": "post_tag",
+      "slug": "real-estate-technology"
+    },
+    {
+      "term_id": 310,
+      "name": "Regulatory compliance",
+      "taxonomy": "post_tag",
+      "slug": "regulatory-compliance"
+    },
+    {
+      "term_id": 276,
+      "name": "Reporting",
+      "taxonomy": "post_tag",
+      "slug": "reporting"
+    },
+    {
+      "term_id": 277,
+      "name": "Security",
+      "taxonomy": "post_tag",
+      "slug": "security"
+    },
+    {
+      "term_id": 180,
+      "name": "Tax",
+      "taxonomy": "post_tag",
+      "slug": "tax"
+    },
+    {
+      "term_id": 294,
+      "name": "Tax and compliance",
+      "taxonomy": "post_tag",
+      "slug": "tax-and-compliance"
+    },
+    {
+      "term_id": 275,
+      "name": "Waterfall automation",
+      "taxonomy": "post_tag",
+      "slug": "waterfall-automation"
+    }
+  ]
 }

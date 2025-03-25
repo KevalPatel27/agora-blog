@@ -1,97 +1,93 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import BlogList from "../components/blogList.js";
 import "./ListingSearching_on_post.css";
 
 const ListingSearching_on_post = () => {
-  const Lists = [
-    "All Categories",
-    "AI and automation",
-    "Accounting",
-    "Alternative investments",
-    "Awards and recognitions",
-    "Bookkeeping",
-    "CRE investment management",
-    "Company news",
-    "Debt fund management",
-    "Document management",
-    "Fundraising",
-    "Investment strategies",
-    "Investor CRM",
-    "Investor Portal",
-    "Investor relations",
-    "Market trends and insights",
-    "Operational efficiency",
-    "Payments",
-    "Press releases",
-    "Real estate technology",
-    "Regulatory compliance",
-    "Reporting",
-    "Security",
-    "Tax",
-    "Tax and compliance",
-    "Waterfall automation",
-  ];
-
-  const [allPosts, setAllPosts] = useState([]); // Store all fetched posts
-  const [filteredPosts, setFilteredPosts] = useState([]); // Store filtered posts
+  const [categories, setCategories] = useState([]);
+  const [loadingCategories, setLoadingCategories] = useState(true);
+  const [filteredPosts, setFilteredPosts] = useState([]);
+  const [allPosts, setAllPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [searchValue, setSearchValue] = useState(""); // Store search input
+  const [searchValue, setSearchValue] = useState("");
 
-  useEffect(() => {
-    const fetchposts = async () => {
-      try {
-        const response = await fetch(
-          "https://websiteapi.agorareal.com/wp-json/agora/v1/posts-by-category-slug-or-id?tags=&category=blog&event=loader&pathval=blog&per_page=40&page=1"
-        );
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const result = await response.json();
-        setAllPosts(result.all_post_list);
-        setFilteredPosts(result.all_post_list); // Initially set filteredPosts same as allPosts
-      } catch (error) {
-        console.log(error);
-      } finally {
-        setLoading(false);
+
+  const fetchCategories = async () => {
+    try {
+      const response = await axios.get(
+        "https://websiteapi.agorareal.com/wp-json/agora/v1/flexible-content/?page_slug=blog&category_slug=blog"
+      );
+      if (response.data.categories && Array.isArray(response.data.categories)) {
+        setCategories([
+          { name: "All Categories" },
+          ...response.data.categories,
+        ]);
       }
+    } catch (error) {
+      console.error("Error fetching categories:", error);
+    } finally {
+      setLoadingCategories(false);
+    }
+  };
+
+  const fetchPosts = async (tag = "", pageNumber = 1) => {
+    setLoading(true);
+    const url =
+      "https://websiteapi.agorareal.com/wp-json/agora/v1/posts-by-category-slug-or-id";
+    const config = {
+      params: {
+        tags: tag,
+        category: "blog",
+        event: "clickbytag",
+        pathval: "blog",
+        per_page: 40,
+        page: pageNumber,
+      },
     };
-    fetchposts();
+    try {
+      const response = await axios.get(url, config);
+      setAllPosts(response.data.all_post_list);
+      setFilteredPosts(response.data.all_post_list);
+    } catch (error) {
+      console.error("Error fetching posts:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+ 
+  useEffect(() => {
+    fetchCategories();
+    fetchPosts();
   }, []);
 
-  // Function to filter posts based on category & search
-  const filterPosts = (categoryIndex, searchText) => {
-    let updatedPosts = allPosts;
 
-    // Filter by category
-    if (categoryIndex !== 0) {
-      const selectedCategory = Lists[categoryIndex];
-      updatedPosts = updatedPosts.filter(post =>
-        post.tag_list.includes(selectedCategory)
-      );
-    }
-
-    // Filter by search text
+  const filterPosts = (searchText) => {
     if (searchText.trim() !== "") {
-      updatedPosts = updatedPosts.filter(post =>
+      const updatedPosts = allPosts.filter((post) =>
         post.post_title.toLowerCase().includes(searchText.toLowerCase())
       );
+      setFilteredPosts(updatedPosts);
     }
-
-    setFilteredPosts(updatedPosts);
   };
 
   // Handle category click
   const handleCategoryClick = (index) => {
     setActiveIndex(index);
-    filterPosts(index, searchValue); // Apply category and search filter together
+    const selectedCategory = categories[index];
+
+    if (selectedCategory.name === "All Categories") {
+      fetchPosts(); 
+    } else {
+      fetchPosts(selectedCategory.term_id); 
+    }
   };
 
   // Handle search input
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchValue(value);
-    filterPosts(activeIndex, value); // Apply category and search filter together
+    filterPosts(value); // Apply category and search filter together
   };
 
   return (
@@ -99,17 +95,23 @@ const ListingSearching_on_post = () => {
       <div className="container">
         <div className="postItem">
           {/* Category List */}
-          <ul className="listing">
-            {Lists.map((list, index) => (
-              <li
-                key={list}
-                className={`list-item ${activeIndex === index ? "active" : ""}`}
-                onClick={() => handleCategoryClick(index)}
-              >
-                {list}
-              </li>
-            ))}
-          </ul>
+          {loadingCategories ? ( // Show loading indicator for categories
+            <p>Loading categories...</p>
+          ) : (
+            <ul className="listing">
+              {categories.map((category, index) => (
+                <li
+                  key={category.term_id}
+                  className={`list-item ${
+                    activeIndex === index ? "active" : ""
+                  }`}
+                  onClick={() => handleCategoryClick(index)}
+                >
+                  {category.name}
+                </li>
+              ))}
+            </ul>
+          )}
 
           {/* Search Box */}
           <div className="postListing">
