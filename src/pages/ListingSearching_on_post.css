@@ -1,3 +1,8 @@
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
 .post-listing-with-filter-section{
     background: linear-gradient(180deg, #F1F6FB 0%, #FDFDFD 100%);
 }
@@ -66,4 +71,45 @@
     color: #001529;
     padding: 16px;
     background-color: transparent;
+}
+
+.postItem .postListing .pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+}
+.postItem .postListing .pagination .arrow{
+    margin: 0 20px;
+    color: #888;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: center;
+}
+.postItem .postListing .pagination .disable{
+    display: none;
+}
+.pageButton {
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 30%;
+    color: #888;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+.pageButton a {
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+.pageButton:hover , .paginationactive{
+    background-color: #fff;
+    color: #fe6d0a;
+    border-color: #fe6d0a;
+    box-shadow: 0 0 17px #efefef;
 }

@@ -5,24 +5,26 @@ import "./ListingSearching_on_post.css";
 
 const ListingSearching_on_post = () => {
   const [categories, setCategories] = useState([]);
+  const [pageNumber, setPageNumber] = useState(0);
   const [loadingCategories, setLoadingCategories] = useState(true);
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
   const [searchValue, setSearchValue] = useState("");
-
+  const [currentPage, setCurrentPage] = useState(1);
 
   const fetchCategories = async () => {
     try {
       const response = await axios.get(
         "https://websiteapi.agorareal.com/wp-json/agora/v1/flexible-content/?page_slug=blog&category_slug=blog"
       );
-      if (response.data.categories && Array.isArray(response.data.categories)) {
+      if (response.data) {
         setCategories([
           { name: "All Categories" },
           ...response.data.categories,
         ]);
+        setPageNumber(response.data.total_pages);
       }
     } catch (error) {
       console.error("Error fetching categories:", error);
@@ -49,18 +51,18 @@ const ListingSearching_on_post = () => {
       const response = await axios.get(url, config);
       setAllPosts(response.data.all_post_list);
       setFilteredPosts(response.data.all_post_list);
+      setCurrentPage(pageNumber);
     } catch (error) {
       console.error("Error fetching posts:", error);
     } finally {
       setLoading(false);
     }
   };
- 
+
   useEffect(() => {
     fetchCategories();
     fetchPosts();
   }, []);
-
 
   const filterPosts = (searchText) => {
     if (searchText.trim() !== "") {
@@ -77,9 +79,9 @@ const ListingSearching_on_post = () => {
     const selectedCategory = categories[index];
 
     if (selectedCategory.name === "All Categories") {
-      fetchPosts(); 
+      fetchPosts();
     } else {
-      fetchPosts(selectedCategory.term_id); 
+      fetchPosts(selectedCategory.term_id);
     }
   };
 
@@ -101,7 +103,7 @@ const ListingSearching_on_post = () => {
             <ul className="listing">
               {categories.map((category, index) => (
                 <li
-                  key={category.term_id}
+                  key={category.term_id || index}
                   className={`list-item ${
                     activeIndex === index ? "active" : ""
                   }`}
@@ -129,7 +131,65 @@ const ListingSearching_on_post = () => {
             </div>
 
             {/* Blog List */}
-            {loading ? <p>Loading...</p> : <BlogList posts={filteredPosts} />}
+            {loading ? (
+              <p>Loading...</p>
+            ) : (
+              <>
+                <BlogList posts={filteredPosts} />
+                {categories[activeIndex] &&
+                categories[activeIndex].name !== "All Categories" ? null : (
+                  <ul className="pagination">
+                    <li
+                      className={`arrow ${
+                        activeIndex === currentPage - 1 ? "disable" : ""
+                      }`}
+                      onClick={() => {
+                        fetchPosts("", currentPage - 1);
+                      }}
+                    >
+                      <a href="#" style={{ display: "block", width: "100%" }}>
+                        <img
+                          src="../assets/Images/double-arrow-left-svgrepo-com.svg"
+                          alt="previous"
+                          style={{
+                            width: "30px",
+                            verticalAlign: "middle",
+                            height: "25px",
+                          }}
+                        />
+                      </a>
+                    </li>
+                    {Array.from({ length: pageNumber }, (_, index) => (
+                      <li
+                        key={index}
+                        className={`pageButton ${
+                          currentPage === index + 1 ? "paginationactive" : ""
+                        }`}
+                        onClick={() => fetchPosts("", index + 1)}
+                      >
+                        {index + 1}
+                      </li>
+                    ))}
+                    <li
+                      className={`arrow ${
+                        pageNumber === currentPage ? "disable" : ""
+                      }`}
+                      onClick={() => {
+                        fetchPosts("", currentPage + 1);
+                      }}
+                    >
+                      <a href="#" style={{ display: "block", width: "100%" }}>
+                        <img
+                          src="../assets/Images/double-arrow-right-svgrepo-com.svg"
+                          alt="next"
+                          style={{ width: "30px", height: "25px" }}
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                )}
+              </>
+            )}
           </div>
         </div>
       </div>
