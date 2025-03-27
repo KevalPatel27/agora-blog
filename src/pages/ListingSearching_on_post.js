@@ -7,8 +7,8 @@ const ListingSearching_on_post = () => {
   const [categories, setCategories] = useState([]);
   const [pageNumber, setPageNumber] = useState(0);
   const [loadingCategories, setLoadingCategories] = useState(true);
+  const [totalPages, setTotalPages] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
-  const [allPosts, setAllPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
   const [searchValue, setSearchValue] = useState("");
@@ -20,10 +20,7 @@ const ListingSearching_on_post = () => {
         "https://websiteapi.agorareal.com/wp-json/agora/v1/flexible-content/?page_slug=blog&category_slug=blog"
       );
       if (response.data) {
-        setCategories([
-          { name: "All Categories" },
-          ...response.data.categories,
-        ]);
+        setCategories([{ name: "All Categories" }, ...response.data.categories]);
         setPageNumber(response.data.total_pages);
       }
     } catch (error) {
@@ -33,27 +30,29 @@ const ListingSearching_on_post = () => {
     }
   };
 
-  const fetchPosts = async (tag = "", pageNumber = 1) => {
+  const fetchPosts = async (tag = "", keyword = "", pageNumber = 1) => {
     setLoading(true);
-    const url =
-      "https://websiteapi.agorareal.com/wp-json/agora/v1/posts-by-category-slug-or-id";
+    const url = "https://websiteapi.agorareal.com/wp-json/agora/v1/posts-by-category-slug-or-id";
     const config = {
       params: {
         tags: tag,
         category: "blog",
         event: "clickbytag",
         pathval: "blog",
+        keyword: keyword,
         per_page: 40,
         page: pageNumber,
       },
     };
     try {
       const response = await axios.get(url, config);
-      setAllPosts(response.data.all_post_list);
       setFilteredPosts(response.data.all_post_list);
+      setTotalPages(response.data.total_pages);
+      console.log(totalPages);
       setCurrentPage(pageNumber);
     } catch (error) {
       console.error("Error fetching posts:", error);
+      setFilteredPosts([]); // Handle no data case properly
     } finally {
       setLoading(false);
     }
@@ -64,18 +63,22 @@ const ListingSearching_on_post = () => {
     fetchPosts();
   }, []);
 
-  const filterPosts = (searchText) => {
-    if (searchText.trim() !== "") {
-      const updatedPosts = allPosts.filter((post) =>
-        post.post_title.toLowerCase().includes(searchText.toLowerCase())
-      );
-      setFilteredPosts(updatedPosts);
-    }
-  };
+  // Debounced effect for search input
+  useEffect(() => {
+    const delayDebounce = setTimeout(() => {
+      if (searchValue.trim() !== "") {
+        fetchPosts(categories[activeIndex].term_id, searchValue); // Call API with search keyword
+      } else {
+        fetchPosts() // Reset when input is empty
+      }
+    }, 500); // Wait 500ms before making the API call
 
-  // Handle category click
+    return () => clearTimeout(delayDebounce); // Cleanup timeout on re-renders
+  }, [searchValue]);
+
   const handleCategoryClick = (index) => {
     setActiveIndex(index);
+    setSearchValue(""); // Reset search input when switching categories
     const selectedCategory = categories[index];
 
     if (selectedCategory.name === "All Categories") {
@@ -85,28 +88,18 @@ const ListingSearching_on_post = () => {
     }
   };
 
-  // Handle search input
-  const handleSearchChange = (e) => {
-    const value = e.target.value;
-    setSearchValue(value);
-    filterPosts(value); // Apply category and search filter together
-  };
-
   return (
     <section className="post-listing-with-filter-section">
       <div className="container">
         <div className="postItem">
-          {/* Category List */}
-          {loadingCategories ? ( // Show loading indicator for categories
+          {loadingCategories ? (
             <p>Loading categories...</p>
           ) : (
             <ul className="listing">
               {categories.map((category, index) => (
                 <li
                   key={category.term_id || index}
-                  className={`list-item ${
-                    activeIndex === index ? "active" : ""
-                  }`}
+                  className={`list-item ${activeIndex === index ? "active" : ""}`}
                   onClick={() => handleCategoryClick(index)}
                 >
                   {category.name}
@@ -115,7 +108,6 @@ const ListingSearching_on_post = () => {
             </ul>
           )}
 
-          {/* Search Box */}
           <div className="postListing">
             <div className="search-wrap">
               <input
@@ -123,60 +115,45 @@ const ListingSearching_on_post = () => {
                 type="text"
                 placeholder="Search articles here"
                 value={searchValue}
-                onChange={handleSearchChange}
+                onChange={(e) => setSearchValue(e.target.value)}
               />
               <button type="search" className="search-icon">
                 <img src="../assets/Images/search-icon.svg" alt="Search Icon" />
               </button>
             </div>
 
-            {/* Blog List */}
             {loading ? (
               <p>Loading...</p>
-            ) : (
+            ) 
+           : (
               <>
                 <BlogList posts={filteredPosts} />
-                {categories[activeIndex] &&
-                categories[activeIndex].name !== "All Categories" ? null : (
+                {categories[activeIndex]?.name !== "All Categories" ? null : (
                   <ul className="pagination">
                     <li
-                      className={`arrow ${
-                        activeIndex === currentPage - 1 ? "disable" : ""
-                      }`}
-                      onClick={() => {
-                        fetchPosts("", currentPage - 1);
-                      }}
+                      className={`arrow ${currentPage === 1 ? "disable" : ""}`}
+                      onClick={() => fetchPosts("", searchValue, currentPage - 1)}
                     >
                       <a href="#" style={{ display: "block", width: "100%" }}>
                         <img
                           src="../assets/Images/double-arrow-left-svgrepo-com.svg"
                           alt="previous"
-                          style={{
-                            width: "30px",
-                            verticalAlign: "middle",
-                            height: "25px",
-                          }}
+                          style={{ width: "30px", height: "25px" }}
                         />
                       </a>
                     </li>
-                    {Array.from({ length: pageNumber }, (_, index) => (
+                    {Array.from({ length: totalPages }, (_, index) => (
                       <li
                         key={index}
-                        className={`pageButton ${
-                          currentPage === index + 1 ? "paginationactive" : ""
-                        }`}
-                        onClick={() => fetchPosts("", index + 1)}
+                        className={`pageButton ${currentPage === index + 1 ? "paginationactive" : ""}`}
+                        onClick={() => fetchPosts("", searchValue, index + 1)}
                       >
                         {index + 1}
                       </li>
                     ))}
                     <li
-                      className={`arrow ${
-                        pageNumber === currentPage ? "disable" : ""
-                      }`}
-                      onClick={() => {
-                        fetchPosts("", currentPage + 1);
-                      }}
+                      className={`arrow ${currentPage === totalPages ? "disable" : ""}`}
+                      onClick={() => fetchPosts("", searchValue, currentPage + 1)}
                     >
                       <a href="#" style={{ display: "block", width: "100%" }}>
                         <img
