@@ -1,9 +1,13 @@
 
 .banner-section{
-    padding:120px 0px;
-    background-color: #F1F6FB;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 220px 0 120px;
+    background-color: #f1f6fb !important;
 }
-
 .banner{
     font-family: Urbanist;
     font-weight: 600;
@@ -37,7 +41,24 @@
     font-size: 18px;
     color: #66737F;
 }
-
+.post-list-wrap{
+    position: relative;
+    z-index: 1;
+}
+.post-list-wrap::before{
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 528px;
+    height: 430px;
+    border-radius: 50%;
+    filter: blur(80px);
+    background-color: #fd6d0a;
+    pointer-events: none;
+    opacity: .2;
+    z-index: -1;
+}
 .banner-section .post-itm {
     padding: 48px;
     display: grid;
@@ -48,6 +69,20 @@
     align-items: center;
     gap:40px;
     box-shadow: 0 20px 24px -4px rgba(98, 145, 247, .078);
+}
+.post-list-wrap:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -40px;
+    width: 485px;
+    height: 452px;
+    border-radius: 50%;
+    filter: blur(80px);
+    background-color: #6282f7;
+    pointer-events: none;
+    opacity: .3;
+    z-index: -1;
 }
 .banner-section .post-itm .post-img img{
     width: 100%;

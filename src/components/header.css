@@ -69,7 +69,7 @@ a {
 }
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -79,7 +79,6 @@ header {
     font-family: var(--Urbanist);
     font-size: 16px;
     line-height: 19.2px;
-    letter-spacing: 0%;
 }
 
 .header-content {
@@ -96,6 +95,7 @@ header {
 .menu {
     display: flex;
     align-items: center;
+    
 }
 
 .menu > ul {
@@ -109,6 +109,7 @@ header {
 .menu ul li {
     list-style: none;
     padding: 30px 0;
+    
 }
 
 .menu ul li a {
@@ -172,7 +173,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     visibility: hidden;
-    pointer-events: none;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -192,7 +192,7 @@ header {
     opacity: 1;
     position: absolute;
     visibility: visible;
-    pointer-events: auto; 
+    
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 .drop-cnt:hover{
@@ -209,7 +209,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 24px;
-       
+    cursor:auto !important  ;
 }
 
 
@@ -261,11 +261,7 @@ header {
     font-weight: 400;
     color: #99A1A9;
 }
-.drop-container .drop-cnt-divider{
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-}
+
 .drop-cnt .drop-cnt-content p{
     font-family: Urbanist;
     font-weight: 400;
@@ -275,11 +271,7 @@ header {
     padding-right: 120px;
 }
 
-.drop-cnt .drop_diff_cnt li{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+
 .drop-cnt  li a{
     text-decoration: none;
     color: #001529;
@@ -288,12 +280,13 @@ header {
     font-size: 14px;
 }
 
-.drop-cnt-divider .drop-cnt-img img{
+.drop-cnt-img {
     max-width: 272px;
     width: 100%;
     max-height: 180px;
     height: 100%; 
     border-radius: 12px;
+    
 }
  .modal {
     position: fixed;
@@ -611,3 +604,4 @@ header {
         padding: 60px 10px;
     }
 }   
+

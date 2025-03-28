@@ -1,15 +1,29 @@
-import React from "react";
 import Author from "../components/author.js";
 import "./banner.css";
 import List from "./ListingSearching_on_post.js";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import DOMPurify from "dompurify";
 
-const banner = () => {
-  const authors = {
-    link: "#",
-    image: "../assets/Images/blog-author/image.png",
-    name: "Mark Goldfinger",
-    date: "Mar 19. 2025",
-  };
+const Banner = () => {
+  const [loading,setLoading] = useState(true);
+  const [banner,setBanner ] = useState([]);
+
+  const fetch = async () =>{
+    setLoading(true);
+    try {
+      const result = await axios.get("https://websiteapi.agorareal.com/wp-json/agora/v1/flexible-content/?page_slug=blog&category_slug=blog")
+      setBanner(result.data)
+    } catch (error) {
+      console.error("Error fetching categories:", error);
+    }finally {
+      setLoading(false);
+    }
+  }
+
+  useEffect(() =>{
+    fetch()
+  },[])
 
   return (
     <>
@@ -17,49 +31,49 @@ const banner = () => {
         <div className="container">
           <div className="banner">
             <div className="banner-content">
-              <h1>BLOG</h1>
-              <h2>
-                Real estate investment <span>blog</span>
-              </h2>
+              <h1>{banner.all_flexible_content?.[0]?.site_banner?.secondary_heading}</h1>
+              <h2 dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(banner.all_flexible_content?.[0]?.site_banner?.primary_heading) }} />
               <p>
-                Stay up-to-date with the latest trends, success stories, and
-                expert advice to maximize your real estate investment potential.
+              {banner.all_flexible_content?.[0]?.site_banner?.short_description}
               </p>
             </div>
-            <div className="post-itm">
-              <div className="post-img">
-                <img
-                  src="../assets/Images/blog-author/banner-author/image.png"
-                  alt="post author"
-                />
-              </div>
-              <div className="post-description">
-                <>
-                  <h5>
-                    <a href="#" className="banner-text">
-                      A modern, intuitive, and secure investor portal that gives
-                      your investors the transparency they.
-                    </a>
-                  </h5>
-                </>
-                <>
-                  <Author
-                    link={authors.link}
-                    image={authors.image}
-                    name={authors.name}
-                    date={authors.date}
-                  />
-                </>
-                <>
-                  <div className="btn ">
-                    <span className="btn-text">Read More</span>
+            <div className="post-list-wrap">
+              <div>
+                <div className="post-itm">
+                  <div className="post-img">
                     <img
-                      alt="arrow-head"
-                      aria-hidden="true"
-                      src="../assets/Images/Union.svg"
+                      src={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].imgurl} 
+                      alt="post author"
                     />
                   </div>
-                </>
+                  <div className="post-description">
+                    <>
+                      <h5>
+                        <a href={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].post_url} className="banner-text">
+                          {banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].post_title}
+                        </a>
+                      </h5>
+                    </>
+                    <>
+                      <Author
+                        link={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].select_author.author_post_url}
+                        image={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].select_author.author_image.img_thumb}
+                        name={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0].select_author.author_image.author_post_title}
+                        date={banner.all_flexible_content?.[0]?.site_banner.cardstyle_2.main_post_selector[0]?.post_publish_date}
+                      />
+                    </>
+                    <>
+                      <div className="btn ">
+                        <span className="btn-text">Read More</span>
+                        <img
+                          alt="arrow-head"
+                          aria-hidden="true"
+                          src="../assets/Images/Union.svg"
+                        />
+                      </div>
+                    </>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -70,4 +84,4 @@ const banner = () => {
   );
 };
 
-export default banner;
+export default Banner;
